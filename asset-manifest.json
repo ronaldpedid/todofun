@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tadone/static/css/main.55370b91.chunk.css",
+    "main.js": "/tadone/static/js/main.9639e7b8.chunk.js",
+    "main.js.map": "/tadone/static/js/main.9639e7b8.chunk.js.map",
+    "runtime~main.js": "/tadone/static/js/runtime~main.62056beb.js",
+    "runtime~main.js.map": "/tadone/static/js/runtime~main.62056beb.js.map",
+    "static/js/2.243972ba.chunk.js": "/tadone/static/js/2.243972ba.chunk.js",
+    "static/js/2.243972ba.chunk.js.map": "/tadone/static/js/2.243972ba.chunk.js.map",
+    "index.html": "/tadone/index.html",
+    "precache-manifest.48690087f874b557836abc887c0dc22f.js": "/tadone/precache-manifest.48690087f874b557836abc887c0dc22f.js",
+    "service-worker.js": "/tadone/service-worker.js",
+    "static/css/main.55370b91.chunk.css.map": "/tadone/static/css/main.55370b91.chunk.css.map"
+  }
+}
