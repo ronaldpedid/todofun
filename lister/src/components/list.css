@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.list-container{
+  display: flex;
+  flex-flow: wrap;
+  flex: 1;
+  justify-content: center;
+
+  
+}
+@media(min-width: 1921px){
+  .list-container{
+    justify-content: flex-start;
+  }
+}
+
+
+.card-container{
+  display: flex;
+  min-height: 200px;
+  max-height: 600px;
+  min-width: 200px;
+  max-width: 500px;
+  width: 500px;
+  height: auto;
+  background: rgb(34,193,195);
+  background: linear-gradient(34deg, rgba(34,193,195,1) 0%, rgba(45,161,253,1) 100%);
+  color: whitesmoke;
+  font-size: 1em;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  padding: 1em;
+  box-shadow: 0,0,1,0.1 #999;
+  line-height: 1.4;
+}
+
+@media(max-width: 600px){
+  .card-container{
+    width: 400px;
+  }
+}
+@media(max-width: 400px){
+  .card-container{
+    width: 320px;
+    justify-content: center;
+  }
+}
+.card-btn_row{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: .5em 0;
+}
+
+.card-btn{
+  max-height: 70px;
+  height: auto;
+  margin: .75em 1em;
+  padding: 0.95em;
+  border-radius: 0.25em;
+  align-self: center;
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: 1.2rem;
+  background: rgb(34,135,195);
+  background: linear-gradient(343deg, rgba(34,135,195,1) 0%, rgba(4,96,230,0.9220063025210083) 100%);
+  border: none;
+}
+
+.card-btn_delete{
+  align-self: center;
+  background: rgb(195,69,34);
+  background: linear-gradient(343deg, rgba(195,69,34,1) 0%, rgba(155,4,230,0.87718837535014) 100%);
+}
+.card-btn_edit{
+  align-self: center;
+
+}
+.card-btn_add{
+  align-self: center;
+
+}
+
+.task-info{
+  margin: .5em 0;
+
+}
+
+input{
+  margin: 0.5em;
+  padding: 0.75em;
+  width: 100%;
+  box-shadow: 0,0,1,0.1 #999;
+  font-size: 0.75em;
+  outline: none;
+
+}
+
+input:focus{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+
+}
+.add-task_container{
+  display: flex;
+  flex-flow: column;
+  min-height: 200px;
+  max-height: 600px;
+  min-width: 200px;
+  max-width: 1600px;
+  width: 100%;
+  height: auto;
+  background: rgb(34,193,195);
+  background: linear-gradient(34deg, rgba(34,193,195,1) 0%, rgba(45,161,253,1) 100%);
+  color: whitesmoke;
+  font-size: 1em;
+  justify-content: center;
+  align-items: center;
+  margin: 1em auto;
+  padding: 1em;
+  box-shadow: 0,0,1,0.1 #999;
+  line-height: 1.4;
+  flex: 1;
+}
